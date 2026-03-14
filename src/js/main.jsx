@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import SecondsCounter from './components/secondscounter';
+import ContadorNuevo from './components/contadornuevo';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap"
 import '../styles/index.css'
@@ -14,7 +14,8 @@ setInterval(() => {
 
 root.render(
       <React.StrictMode>
-        <SecondsCounter seconds={counter} />
+<ContadorNuevo/>
       </React.StrictMode>
     );
 }, 1000);
+
